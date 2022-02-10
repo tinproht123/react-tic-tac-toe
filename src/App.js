@@ -80,7 +80,7 @@ export default function App() {
     return (
       <td
         onClick={() => handleClick(num)}
-        class={`${cells[num] === 'X' ? 'blue' : 'red'}`}
+        className={`${cells[num] === 'X' ? 'blue' : 'red'}`}
       >
         {cells[num]}
       </td>
